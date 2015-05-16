@@ -12,44 +12,78 @@
   <body>
     <div class="container">
       <div class="row">
-      <div class="col-md-1 logo-container">
-      </div> <!-- /logo -->
+        <div class="col-md-1 logo-container">
+        </div> <!-- /.col-md-1 logo-container -->
+        <div class="col-md-10 col-adj">
+          <nav class="navbar navbar-default navbar-custom">
+            <!-- Toggling for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div> <!-- /.navbar-header -->
 
-      <div class="col-md-10 col-adj">
-      <nav class="navbar navbar-default navbar-custom">
-        <!-- <div class="container-fluid"> -->
-          <!-- Toggling for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse-1">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div> <!-- /.navbar-header -->
-
-          <!-- Nav links -->
-          <div class="collapse navbar-collapse" id="main-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">Study with us</a></li>
-              <li><a href="#">Research</a></li> 
-              <li><a href="#">For business</a></li>
-              <li><a href="#">Alumni</a></li>
-              <li><a href="#">Sheffield International</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Departments and services</a></li>
-            </ul>
-          </div> <!-- /.navbar-collapse -->
-        <!-- </div> --> <!-- /.container-fluid -->
-      </nav>
-    </div>
-
-    </div>
+            <!-- Nav links -->
+            <div class="collapse navbar-collapse" id="main-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Study with us</a></li>
+                <li><a href="#">Research</a></li> 
+                <li><a href="#">For business</a></li>
+                <li><a href="#">Alumni</a></li>
+                <li><a href="#">Sheffield International</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Departments and services</a></li>
+              </ul>
+            </div> <!-- /.collapse navbar-collapse -->
+          </nav>
+        </div> <!-- /.col-md-10 col-adj -->
+      </div> <!-- /.row -->
     </div> <!-- /.container -->
 
+    <div class="ug-nav">
+      <nav class="navbar navbar-default">
+        <!-- Toggling for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ug-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div> <!-- /.navbar-header -->
 
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        <!-- Nav links -->
+        <div class="collapse navbar-collapse" id="ug-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="ug-active"><a href="#">Course search</a></li>
+            <!-- <li><a href="#">Build your own prospectus</a></li>
+            <li><a href="#">Order a printed prospectus</a></li>  -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Prospectus <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Build your own prospectus</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Order a printed prospectus</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Visit us</a></li>
+            <li><a href="#">How to apply</a></li>
+            <li><a href="#">Studying in Sheffield</a></li>
+            <li><a href="#">Living in Sheffield</a></li>
+            <li><a href="#">Finance</a></li>
+            <li><a href="#">Accommodation</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div> <!-- /.collapse navbar-collapse -->
+      </nav>
+    </div> <!-- /.ug-nav -->
+
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="resources/bootstrap-3.3.4/js/bootstrap.js"></script>
   </body>
 </html>

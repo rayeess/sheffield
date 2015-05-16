@@ -1,26 +1,26 @@
 body {
   /*background-color: #002700;*/
   background-color: #ffffff;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .logo-container {
 	background-image: url("file:///Applications/XAMPP/xamppfiles/htdocs/sheffield/resources/images/logo.gif");
-	background-position: -28px;
+	background-position: -13px;
 	/*margin-top: 30px;*/
-	width: 146px;
+	width: 148px;
 	height: 60px;
 	float: left;
 }
 
 .col-adj {
-	float: right;
+	/*float: right;*/
 	height:60px;
 	padding-top: 3px;
 }
 
 .navbar-custom {
-    background-color: #ffffff;
+    background-color: transparent;
     border: none;
 }
 
@@ -31,6 +31,17 @@ body {
     /*height: 50px;*/
 }
 
+.ug-active {
+    background-color: #ffffff;
+    border-bottom: medium solid #be3b39;
+    border-top: medium solid #be3b39;
+    /*height: 50px;*/
+}
+
 .verticalLine {
     border-left: 1px solid #002700;
+}
+
+.ug-nav {
+	padding-top: 50px;
 }
