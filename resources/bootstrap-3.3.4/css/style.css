@@ -3,14 +3,39 @@ body {
   background-color: #ffffff;
   padding-top: 20px;
 }
+.container {
+    width: 100%;
+    background: none repeat scroll 0% 0% #28265a;
+    position: absolute;
+    top: 0px;
+    z-index: 9999;
+}
 
+.wrapHeaderMainTitle h1 {
+  font-size: 50px;
+  color: #ffffff;
+  float: left;
+  background: #000;
+  padding: 12px;
+}
+
+.wrapHeaderMainTitle {
+	margin-top: 52px;
+	padding-left: 20px;
+	background-image: url('../images/uni.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 199px;
+	padding-top: 30px;
+	background-size: cover;
+}
 .logo-container {
-	background-image: url("file:///Applications/XAMPP/xamppfiles/htdocs/sheffield/resources/images/logo.gif");
-	background-position: -13px;
-	/*margin-top: 30px;*/
-	width: 148px;
-	height: 60px;
-	float: left;
+  background-image: url('../images/logo.gif');
+  background-position: -13px;
+  /* margin-top: 30px; */
+  width: 163px;
+  height: 72px;
+  float: left;
 }
 
 .col-adj {
@@ -25,23 +50,66 @@ body {
 }
 
 .active {
-    background-color: #ffffff;
-    border-bottom: medium solid #be3b39;
-    border-top: medium solid #be3b39;
+/*    border-bottom: medium solid #645C8F;
+    border-top: medium solid #645C8F;*/
+    /*border-bottom: medium solid #be3b39;
+    border-top: medium solid #be3b39;*/
     /*height: 50px;*/
 }
 
 .ug-active {
-    background-color: #ffffff;
-    border-bottom: medium solid #be3b39;
-    border-top: medium solid #be3b39;
+   /* background-color: #ffffff;
+    border-bottom: medium solid #645C8F;
+    border-top: medium solid #645C8F;*/
     /*height: 50px;*/
 }
+.wrapCourseDetails {
+  border-bottom: 1px solid #eee;
+  float: left;
+}
+.boxList {
+  /*border-bottom: 1px solid #ccc;*/
+  padding-left: 0px;
+  padding-top: 20px;
+}
 
+
+.boxList li {
+  /*border-bottom: 1px solid #ccc;*/
+  list-style: none;
+  padding: 2px 0px;
+}
 .verticalLine {
     border-left: 1px solid #002700;
 }
 
 .ug-nav {
-	padding-top: 50px;
+margin-top: 0px;
+  z-index: 9999;
+  left: 0px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.course-title {
+  background-color: #be3b39;
+  color: #ffffff;
+  height: 120px;
+}
+
+.wrapAllCourseInfo {
+	padding-left: 20px;
+	margin-top: 170px;
+	padding-right: 20px;
+}
+
+.wrapAllCourseInfo h3 {
+  color: #be3b39;
+}
+
+.tab-content > .tab-pane {
+    padding-left: 15px;
+    padding-left: 15px;
 }
