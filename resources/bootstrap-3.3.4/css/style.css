@@ -109,7 +109,114 @@ margin-top: 0px;
   color: #be3b39;
 }
 
+.tab-content {
+	border: 1px solid #DDD;
+	border-top: none;
+	margin-top: -20px;
+}
+
 .tab-content > .tab-pane {
-    padding-left: 15px;
-    padding-left: 15px;
+    padding: 5px 15px 15px 15px;
+    margin-top: 20px;
+}
+
+/*.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}*/
+/*.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	float: none;
+}*/
+
+.floatAdj {
+	float: none;
+	margin-left: -15px;
+}
+
+.blockquote {
+	border-left: 5px solid #be3b39;
+    margin: 25px 0px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+/*.quote::before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 3em;
+    line-height: 0.1em;
+    vertical-align: -0.4em;
+    padding-right: 3px;
+}
+.quote::after {
+    content: close-quote;
+    color: #ccc;
+    font-size: 3em;
+    line-height: 0.1em;
+    vertical-align: -0.4em;
+    padding-left: 3px;
+}*/
+
+.blockquote .custom {
+	color: #ccc;
+	padding: 0 5px;
+}
+
+.blockquote small:before {
+	content: "— ";
+}
+
+.source {
+	color: #666;
+}
+
+.advert {
+	padding-top: 47px;
+}
+
+.footerWrap {
+	background-color: #f5f5f5;
+    bottom: 0;
+    height: 60px;
+    position: relative;
+    width: 100%;
+    float: left;
+    border-top: 1px solid #ddd;
+    margin-top: 35px;
+}
+
+.footer {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+}
+
+.footer p {
+	color: #666;
+}
+
+.img-social {
+    height: 30px;
+    max-width: 35px;
+}
+
+img.desaturate { 
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+img.desaturate:hover {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	filter: grayscale(0%);
 }
