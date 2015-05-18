@@ -49,6 +49,13 @@ body {
     border: none;
 }
 
+.nav-custom-2 {
+	background-color: #28265a;
+    /*border: 1px solid #fff;*/
+    color: #fff;
+    margin-top: 5px;
+}
+
 .active {
 /*    border-bottom: medium solid #645C8F;
     border-top: medium solid #645C8F;*/
@@ -263,7 +270,26 @@ img.desaturate:hover {
 	padding-top: 20px;
 }
 
-.recognition {
-	width: auto;
+.award {
+	width: 215px;
 	padding-left: 15px;
+}
+
+.survey {
+	width: 330px;
+	padding-left: 15px;
+}
+
+.test {
+	width: 100%;
+}
+
+.breadcrumb {
+	margin-right: 8px;
+}
+
+@media screen and (max-width: 568px) {
+        .wrapHeaderMainTitle h1 {
+    font-size:18px;
+    }
 }
