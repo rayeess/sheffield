@@ -72,6 +72,7 @@ body {
 }
 .wrapCourseDetails {
   border-bottom: 1px solid #eee;
+  margin-bottom: 35px;
   float: left;
 }
 .boxList {
@@ -103,12 +104,11 @@ margin-top: 0px;
 .course-title {
   background-color: #be3b39;
   color: #ffffff;
-  height: 120px;
+  height: auto;
 }
 
 .wrapAllCourseInfo {
 	padding-left: 20px;
-	margin-top: 170px;
 	padding-right: 20px;
 }
 
@@ -280,10 +280,6 @@ img.desaturate:hover {
 	padding-left: 15px;
 }
 
-.test {
-	width: 100%;
-}
-
 .breadcrumb {
 	margin-right: 8px;
 }
@@ -292,4 +288,20 @@ img.desaturate:hover {
         .wrapHeaderMainTitle h1 {
     font-size:18px;
     }
+}
+
+@media screen and (max-width: 568px) {
+        .wrapCourseDetails {
+    margin-top: -20px;
+    }
+}
+
+.split-cus {
+	float: right;
+	padding-bottom: 5px;
+	padding-right: 5px;
+}
+
+.button-adj {
+	margin-right: 0;
 }
