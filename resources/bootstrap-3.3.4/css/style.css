@@ -305,3 +305,11 @@ img.desaturate:hover {
 .button-adj {
 	margin-right: 0;
 }
+
+.campus {
+	color: #ddd;
+}
+
+.main > li:hover {
+	font-style: italic;
+}

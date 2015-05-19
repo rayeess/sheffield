@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1, user-scalable=yes">
+    <link rel="shortcut icon" href="resources/bootstrap-3.3.4/images/logo-sm.gif">
     <link rel="stylesheet" href="resources/bootstrap-3.3.4/css/bootstrap.css">
     <link rel="stylesheet" href="resources/font-awesome-4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="resources/bootstrap-3.3.4/css/style.css">
@@ -29,7 +30,7 @@
 
             <!-- Nav links -->
             <div class="collapse navbar-collapse nav-custom-2" id="main-navbar-collapse-1">
-              <ul class="nav navbar-nav">
+              <ul class="nav navbar-nav main">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#">Study with us</a></li>
                 <li><a href="#">Research</a></li> 
@@ -38,7 +39,48 @@
                 <li><a href="#">Sheffield International</a></li>
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Departments and services</a></li>
+
+                <li class="search">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-search fa-lg"></i></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li>
+                      <!-- <div class="row"> -->
+                        <!-- <div class="col-md-12"> -->
+                          <form class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                              <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <div class="form-group">
+                            <button type="submit" class="btn btn-default">Search</button>
+                            </div>
+                          </form>
+                        <!-- </div> -->
+                      <!-- </div> -->
+                    </li>
+                  </ul>
+                </li>
+
+
+                <li class="login">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-sign-in fa-lg"></i></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+
+
+
               </ul>
+
+
+
+
             </div> <!-- /.collapse navbar-collapse -->
           </nav>
         </div> <!-- /.col-md-10 col-adj -->
@@ -100,6 +142,7 @@
     <div class="wrapCourseDetails">
       <div class="col-md-4 course-title">
         <h2>Accounting and Financial Management</h2>
+        <h6 class="campus">Sheffield University Management School</h6>
         <!-- Split button -->
         <div class="row">
         <div class="btn-group split-cus">
@@ -225,13 +268,6 @@
             <h3>Statistics about this course</h3>
             <p>The figures below give you key information about this course. The data has been independently collected by the Higher Education Funding Council for England (HEFCE).</p>
 
-            <!-- <div class = "col-md-8 floatAdj">
-              <div class = "embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" id="unistats-widget-frame" src="https://widget.unistats.ac.uk/Widget/10007157/N420/horizontal/small/en-GB/" title="Unistats KIS Widget"></iframe>
-              </div>
-            </div> -->
-
-            <!-- <iframe id="unistats-widget-frame" style="overflow: hidden; border: 0px none transparent; width: 100%; height: 150px;" scrolling="yes" src="https://widget.unistats.ac.uk/Widget/10007157/N420/horizontal/small/en-GB/" title="Unistats KIS Widget"> -->
           </div>
           <div id="modules" class="tab-pane fade">
             <h3>Modules - what you study and when</h3>
@@ -446,5 +482,15 @@
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="resources/bootstrap-3.3.4/js/bootstrap.js"></script>
+    <script type="text/javascript">
+      $(function () {
+      // Setup drop down menu
+      $('.dropdown-menu').dropdown();
+
+      // Fix input element click problem
+      $('.dropdown-menu input, .dropdown-menu label').click(function (e) {
+          e.stopPropagation();
+      });
+        })</script>
   </body>
 </html>

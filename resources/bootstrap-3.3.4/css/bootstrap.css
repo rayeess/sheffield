@@ -4394,7 +4394,7 @@ background-color: #eee;
   font-family: serif;
   font-size: 15px;
   letter-spacing: normal;
-  font-style: italic;
+  /*font-style: italic;*/
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
